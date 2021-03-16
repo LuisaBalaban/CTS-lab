@@ -13,4 +13,12 @@ Code review
 -there are no validations for t,s, and perioada
 
 3.single responsability & kiss
--outsource the intermediary operationsinto new simple functions
+-outsource the intermediary operations into new simple functions
+
+4. Reduce the complexity of the existing functions - KISS
+-reduce the complexity from the getPriceWithDiscount - we have a repeeating pattern
+-remove the switch by refactoring the first case
+
+
+5. Single responsability & dependecy inversion (deep)
+-refactor the cutsom exceptions framework
