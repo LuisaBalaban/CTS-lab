@@ -1,0 +1,22 @@
+1.Clean code
+-camel case not respected everywhere (eg. to_string())
+-function names aren't always telling (eg. calculate)
+-the class is not small/compact
+-functions do more than one thing (eg. validating & attributing values, setValue())
+-comments that explain code should be erased, implemented as code
+- we use hard-coded values (eg. 0.0125)
+-we init values we don't use (int vb=10)
+-we can group certain values in an enum (eg. account type)
+-code isn't very readable intially
+-we should avoid static functions
+2. Security
+- limit the accessibility of certain functions/attributes
+3.Best practices
+ -the Account class could be split into multiple functionalities - Account details, Management side - where we calculate interest
+4. Peformance
+- we shouldn't create objects that are not necessary (eg. Account account)
+5. General
+-we should have specific exceptions instead of generic ones
+-we use accessor methods rather than public fields
+-properly override toString()
+-use enums instead of int constants
