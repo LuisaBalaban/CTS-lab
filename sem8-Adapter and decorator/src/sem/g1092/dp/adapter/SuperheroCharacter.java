@@ -2,8 +2,8 @@ package sem.g1092.dp.adapter;
 //existing framework
 public abstract class SuperheroCharacter {
 
-	String name;
-	int power;
+	public String name;
+	public int power;
 	
 	public SuperheroCharacter(String name, int power) {
 		super();
