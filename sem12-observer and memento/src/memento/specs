@@ -1,0 +1,6 @@
+2. Players have the opportunity to save the state of the game / character and restore it later
+- the player can resume the game from a certain point
+
+when defying a backup clone- we get an obj with same type. Clone has same behaviour as opriginal object.
+The clone might become the original object. Memento, in order to prevent that from happening, doesnt himplement the same interface as the originator
+
